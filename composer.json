@@ -1,0 +1,11 @@
+{
+    "name": "bruno/bng",
+    "description": "Aplicação para gestão de name gathering.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Bruno Souza"
+        }
+    ],
+    "require": {}
+}
