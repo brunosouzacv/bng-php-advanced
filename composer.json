@@ -7,5 +7,15 @@
             "name": "Bruno Souza"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "bng\\Controllers\\":["app/controllers"],
+            "bng\\System\\":["app/System"]
+        },
+        "files": [
+            "app/config.php",
+            "app/helpers/funcions.php"
+        ]
+    }
 }
