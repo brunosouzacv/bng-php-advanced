@@ -11,11 +11,12 @@
     "autoload": {
         "psr-4": {
             "bng\\Controllers\\":["app/controllers"],
-            "bng\\System\\":["app/System"]
+            "bng\\Models\\":["app/Models"],
+            "bng\\System\\":["app/system"]
         },
         "files": [
             "app/config.php",
-            "app/helpers/funcions.php"
+            "app/helpers/functions.php"
         ]
     }
 }
