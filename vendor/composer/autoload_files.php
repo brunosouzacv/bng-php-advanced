@@ -6,6 +6,11 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+<<<<<<< HEAD
     '755d4b7a5a2aa81e88aa84640c2b6840' => $baseDir . '/app/config.php',
     'e5ed17891422fa03840f68a10dbc3e3b' => $baseDir . '/app/helpers/functions.php',
+=======
+    '9792b02da3111b62997015981f2467d4' => $baseDir . '/app/config.php',
+    'de98e88a9b7b9c3addc53d9f0301b332' => $baseDir . '/app/helpers/functions.php',
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
 );

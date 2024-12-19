@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "bruno/bng",
     "description": "Aplicação para gestão de name gathering.",
     "type": "project",
@@ -15,6 +16,27 @@
             "bng\\System\\":["app/system"]
         },
         "files": [
+=======
+    "name": "sys4soft/bng",
+    "description": "Aplicacao para gestao de name gathering.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joao Ribeiro",
+            "email": "joaoribeiro@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "bng\\Controllers\\":["app/controllers"],
+            "bng\\Models\\":["app/models"],
+            "bng\\System\\":["app/system"]
+        },
+        "files":[
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
             "app/config.php",
             "app/helpers/functions.php"
         ]

@@ -1,17 +1,33 @@
 <?php
 
 namespace bng\System;
+<<<<<<< HEAD
 use bng\Controllers\Main;
 use Exception;
 
 class Router {
     public static function dispath(){
         //main route values
+=======
+
+use bng\Controllers\Main;
+use Exception;
+
+class Router
+{
+    public static function dispatch()
+    {
+        // main route values
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
         $httpverb = $_SERVER['REQUEST_METHOD'];
         $controller = 'main';
         $method = 'index';
 
+<<<<<<< HEAD
         //chech uri parameters
+=======
+        // check uri parameters
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
         if(isset($_GET['ct'])){
             $controller = $_GET['ct'];
         }
@@ -20,6 +36,7 @@ class Router {
             $method = $_GET['mt'];
         }
 
+<<<<<<< HEAD
         //method parameters
         $parameters = $_GET;
 
@@ -34,6 +51,22 @@ class Router {
         }
 
         //tries to instanciate the controller and execute the method
+=======
+        // method parameters
+        $parameters = $_GET;
+
+        // remove controller from parameters
+        if(key_exists("ct", $parameters)) {
+            unset($parameters["ct"]);
+        }
+
+        // remove method from parameters
+        if(key_exists("mt", $parameters)) {
+            unset($parameters["mt"]);
+        }
+
+        // tries to instanciate the controller and execute the method
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
         try {
             $class = "bng\Controllers\\$controller";
             $controller = new $class();

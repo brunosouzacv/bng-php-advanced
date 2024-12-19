@@ -1,0 +1,8 @@
+[2024-12-19T17:51:42.653863+00:00] app_logs.ERROR: admin@bng.com - login inválido [] []
+[2024-12-19T17:52:04.948289+00:00] app_logs.INFO: admin@bng.com - login com sucesso [] []
+[2024-12-19T17:52:15.886323+00:00] app_logs.INFO:  - fez logout [] []
+[2024-12-19T17:55:44.379801+00:00] app_logs.INFO: admin@bng.com - login com sucesso [] []
+[2024-12-19T17:55:46.281638+00:00] app_logs.INFO:  - fez logout [] []
+[2024-12-19T17:55:48.558337+00:00] app_logs.INFO:  - fez logout [] []
+[2024-12-19T18:05:01.313818+00:00] app_logs.INFO: admin@bng.com - login com sucesso [] []
+[2024-12-19T18:05:11.622966+00:00] app_logs.INFO:  - fez logout [] []

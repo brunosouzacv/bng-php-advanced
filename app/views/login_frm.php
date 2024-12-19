@@ -10,7 +10,11 @@
 
                 <div class="row justify-content-center">
                     <div class="col-8">
+<<<<<<< HEAD
                         <form action="#" method="post">
+=======
+                        <form action="?ct=main&mt=login_submit" method="post" novalidate>
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
                             <div class="mb-3">
                                 <label for="text_username" class="form-label">Utilizador</label>
                                 <input type="email" name="text_username" id="text_username" value="" class="form-control" required>
@@ -26,10 +30,25 @@
                             <div class="mb-3 text-center">
                                 <a href="#">Esqueci-me da password!</a>
                             </div>
+<<<<<<< HEAD
 
                             <div class="alert alert-danger p-2 text-center">
                                 [mensagem de erro]
                             </div>
+=======
+                            <?php if(!empty($validation_errors)): ?>
+                                <div class="alert alert-danger p-2 text-center">
+                                    <?php foreach($validation_errors as $error): ?>
+                                        <div><?= $error ?></div>
+                                    <?php endforeach; ?>
+                                </div>
+                            <?php endif; ?>
+                            <?php if(!empty($server_error)): ?>
+                                <div class="alert alert-danger p-2 text-center">
+                                    <div><?= $server_error ?></div>
+                                </div>
+                            <?php endif; ?>
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
                         </form>
                     </div>
                 </div>

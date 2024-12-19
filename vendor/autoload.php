@@ -22,4 +22,8 @@ if (PHP_VERSION_ID < 50600) {
 
 require_once __DIR__ . '/composer/autoload_real.php';
 
+<<<<<<< HEAD
 return ComposerAutoloaderInitc05f4b8920482513ea9cbe4aafdca7f5::getLoader();
+=======
+return ComposerAutoloaderInit080e2ccbecac0b0a0d365cb20495c659::getLoader();
+>>>>>>> 6b3d324 (Novas configurações no processo de login e configuração do log com o monolog)
